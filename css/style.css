@@ -1,0 +1,16 @@
+[class*="container"] {
+    background-color: teal;
+    border: 2px solid salmon;
+}
+
+[class*="col"] {
+    background-color: steelblue;
+    height: 50px;
+    border: 2px solid orange;
+}
+
+.ms-cont-bg {
+    background-color: olivedrab;
+    border: 2px solid sienna;
+    width: 100%;
+}
