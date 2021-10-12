@@ -129,3 +129,22 @@ main #about .btn-outline-primary {
 main #about .btn-outline-primary:hover {
     background-color: rgba(255, 255, 255, .2);
 }
+
+/* /////////////////////// */
+/* footer */
+footer {
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+/* contacts */
+footer #contacts {
+    
+}
+
+footer #contacts .col:last-child a {
+    color: #1abc9c;
+}
