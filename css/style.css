@@ -90,7 +90,14 @@ header #jumbotron {
 }
 
 header #jumbotron img {
-    max-width: 20%;
+    max-width: 50%;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    header #jumbotron img {
+        max-width: 30%;
+    }
 }
 
 header #jumbotron h1, header #jumbotron h3 {
