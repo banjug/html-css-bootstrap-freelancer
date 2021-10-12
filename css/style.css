@@ -21,6 +21,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;700&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Rubik', Helvetica, Arial, sans-serif;
 }
@@ -152,6 +156,37 @@ main #about .btn-outline-primary {
 main #about .btn-outline-primary:hover {
     background-color: rgba(255, 255, 255, .2);
 }
+
+/* contact me */
+main #contact-form {
+    padding: 40px 0;
+}
+
+main #contact-form .ms-divider-line {
+    background-color: #2c3e50;
+}
+
+main #contact-form .ms-divider-star {
+    color: #2c3e50;
+}
+
+main #contact-form form .form-control {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+}
+
+main #contact-form form label {
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+main #contact-form form .btn {
+    background-color: #1abc9c;
+    border: none;
+}
+
 
 /* /////////////////////// */
 /* footer */
