@@ -1,6 +1,6 @@
 /* debug */
 
-[class*="container"] {
+/* [class*="container"] {
     background-color: teal;
     border: 2px solid salmon;
 }
@@ -15,7 +15,7 @@
     background-color: olivedrab;
     border: 2px solid sienna;
     width: 100%;
-}
+} */
 
 /* fine debug */
 
@@ -137,14 +137,48 @@ footer {
 }
 
 footer a {
+    color: rgba(255, 255, 255, .7);
+}
+
+footer a:hover {
     color: white;
+}
+
+footer section {
+    padding: 40px 0;
 }
 
 /* contacts */
 footer #contacts {
-    
+    background-color: #3a546d;
+}
+
+footer #contacts .col:nth-child(2) {
+    display: fle;
+}
+
+footer #contacts .col:nth-child(2) .ms-icon-cont {
+    display: flex;
+    justify-content: center;
+}
+
+footer #contacts .col:nth-child(2) .ms-icon-cont a {
+    border: solid 1px white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    text-decoration: none;
 }
 
 footer #contacts .col:last-child a {
     color: #1abc9c;
+}
+
+/* copyright */
+footer section:last-child {
+    background-color: #2c3e50;
 }
