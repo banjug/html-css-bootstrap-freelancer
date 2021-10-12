@@ -60,7 +60,7 @@ h3 {
 /* jumbotron */
 header #jumbotron {
     background-color: #1abc9c;
-    padding: 30px 0;
+    padding: 40px 0;
 }
 
 header #jumbotron img {
@@ -76,7 +76,7 @@ header #jumbotron h1, header #jumbotron h3 {
 
 /* portfolio */
 main #portfolio {
-    padding: 30px 0;
+    padding: 40px 0;
 }
 
 main #portfolio h2 {
@@ -95,4 +95,37 @@ main #portfolio img {
     max-width: 100%;
     border-radius: 10px;
     margin: 15px 0;
+}
+
+/* about */
+main #about {
+    background-color: #1abc9c;
+    padding: 40px 0;
+}
+
+main #about h2 {
+    color: white;
+}
+
+main #about p {
+    color: white;
+    font-size: 1.2rem;
+}
+
+main #about .row .col:nth-child(1) p {
+    padding-left: 40px;
+}
+
+main #about .row .col:nth-child(2) p {
+    padding-right: 40px;
+}
+
+main #about .btn-outline-primary {
+    color: white;
+    border-color: white;
+    margin: 10px 0;
+}
+
+main #about .btn-outline-primary:hover {
+    background-color: rgba(255, 255, 255, .2);
 }
