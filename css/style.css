@@ -138,12 +138,20 @@ main #about p {
     font-size: 1.2rem;
 }
 
-main #about .row .col:nth-child(1) p {
-    padding-left: 40px;
+main #about .row .col p {
+    padding: 0 100px;
 }
 
-main #about .row .col:nth-child(2) p {
-    padding-right: 40px;
+@media (min-width: 768px) {
+    main #about .row .col:nth-child(1) p {
+        padding-left: 40px;
+        padding-right: 0;
+    }
+    
+    main #about .row .col:nth-child(2) p {
+        padding-left: 0;
+        padding-right: 40px;
+    }
 }
 
 main #about .btn-outline-primary {
@@ -170,6 +178,7 @@ main #contact-form .ms-divider-star {
     color: #2c3e50;
 }
 
+
 main #contact-form form .form-control {
     border-top: none;
     border-left: none;
@@ -187,6 +196,13 @@ main #contact-form form .btn {
     border: none;
 }
 
+main #contact-form form {
+    padding: 0 100px;
+}
+
+@media (min-width: 768px) {
+    padding: 0;
+}
 
 /* /////////////////////// */
 /* footer */
@@ -214,6 +230,8 @@ footer #contacts {
 footer #contacts .col {
     font-weight: 300;
     font-size: 1.1rem;
+    margin: 15px 0;
+    padding: 0 150px;
 }
 
 footer #contacts .col:nth-child(2) .ms-icon-cont {
@@ -235,6 +253,15 @@ footer #contacts .col:nth-child(2) .ms-icon-cont a {
 
 footer #contacts .col:last-child a {
     color: #1abc9c;
+}
+
+
+
+@media (min-width: 768px) {
+    footer #contacts .col {
+        padding: 0;
+        margin: 0;
+    }
 }
 
 /* copyright */
