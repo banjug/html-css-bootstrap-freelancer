@@ -19,13 +19,19 @@
 
 /* fine debug */
 
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;700&display=swap');
+
+body {
+    font-family: 'Rubik', Helvetica, Arial, sans-serif;
+}
+
 h1 {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 3.5rem;
 }
 
 h2 {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 3rem;
 }
 
@@ -56,6 +62,22 @@ h3 {
 
 /* /////////////////////// */
 /* header */
+
+/* navbar */
+header #ms-navbar {
+    background-color: #2c3e50;
+    padding: 10px 0;
+}
+
+header #ms-navbar .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+header #ms-navbar .nav-item {
+    font-size: 1.2rem;
+}
+
 
 /* jumbotron */
 header #jumbotron {
@@ -124,6 +146,7 @@ main #about .btn-outline-primary {
     color: white;
     border-color: white;
     margin: 10px 0;
+    font-weight: 300;
 }
 
 main #about .btn-outline-primary:hover {
@@ -153,8 +176,9 @@ footer #contacts {
     background-color: #3a546d;
 }
 
-footer #contacts .col:nth-child(2) {
-    display: fle;
+footer #contacts .col {
+    font-weight: 300;
+    font-size: 1.1rem;
 }
 
 footer #contacts .col:nth-child(2) .ms-icon-cont {
@@ -181,4 +205,5 @@ footer #contacts .col:last-child a {
 /* copyright */
 footer section:last-child {
     background-color: #2c3e50;
+    font-weight: 300;
 }
