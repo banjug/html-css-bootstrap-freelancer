@@ -5,7 +5,7 @@
 
 [class*="col"] {
     background-color: steelblue;
-    height: 50px;
+    min-height: 50px;
     border: 2px solid orange;
 }
 
